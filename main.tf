@@ -2,9 +2,10 @@ terraform {
     backend "remote" {
         hostname = "app.terraform.io"
         organistaion = "jsky-org"
-    }
-    workspaces {
+    
+        workspaces {
         name = "terraform-repo"
+       }
     }
 }
 
