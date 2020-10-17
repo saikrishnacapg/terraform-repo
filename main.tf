@@ -4,7 +4,7 @@ terraform {
         organistaion = "jsky-org"
     
         workspaces {
-        name = "terraform-repo"
+        name = "terraform-repo" 
        }
     }
 }
